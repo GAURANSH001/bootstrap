@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>IRON MAN</title>
-    </head>
-    <h1>IRON MAN</h1>
-   <div> <a href="https://www.marvel.com/characters/iron-man-tony-stark">MARVEL PROFILE</a></div>
- <div>   <img src="https://resources.superherostuff.com/shs/banner/page-banner/051517-ironman-biography-1x.jpg" alt=""></div>
-Here is the  <a href="https://twitter.com/Iron_Manhttps://twitter.com/Iron_Man">twitter lin</a>
-<ul><h2>ENEMIES:</h2>
-   <li>MANDARIAN,IVAN</li>
-   <li>BRANDIT</li>
-   <li>savin</li>
-   <li>THANOS</li>
-   <li>OBADIAH STANE</li>
-   <li>ULTRON</li>
+   <head>
+         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css" >
+         </head>
+           <body class="text-center justify-content">
+                <title>IRON man</title>
+    <h1 class="alert alert-danger alert-block">IRON man</h1>
+   <div> <a href="https://www.marvel.com/characters/iron-man-tony-stark" class="btn btn-primary btn btn-block ">MARVEL PROFILE</a></div>
+ <div>   <img src="https://resources.superherostuff.com/shs-website/primary-license/captain-america/heropage-2x.jpg" alt=""></div>
+ <h2 class="alert alert-warning alert-block" >HERE IS THE <a href="https://twitter.com/Iron_Manhttps://twitter.com/Iron_Man"> twitter link</a></h2>
+<div class="row">
+   <div class="col-6"><ul class="list-group"><h2 class="list-group alert alert-danger">ENEMIES:</h2>
+   <li class="list-group-item ">MANDARIAN,IVAN</li>
+   <li class="list-group-item ">BRANDIT</li>
+   <li class="list-group-item ">savin</li>
+   <li class="list-group-item ">THANOS</li>
+   <li class="list-group-item ">OBADIAH STANE</li>
+   <li class="list-group-item ">ULTRON</li>
    </ul>
-   <ul><h2>TOP 3 IRON MAN MOVIES</h2>
-    <li>IRON MAN <span style="color: blue">(2008)</span></li>
-    <li>IRON MAN 2 <span style="color: blue">(2010)</span></li>
-    <li>IRON MAN 3<span style="color: blue">(2012)</span></li>
+   </div>
+   <div class="col-6">
+   <ul class="list-group"><h2 class="list-group alert alert-danger" >TOP 3 IRON MAN MOVIES</h2>
+    <li class="list-group-item ">IRON MAN <span style="color: blue">(2008)</span></li>
+    <li class="list-group-item ">IRON MAN 2 <span style="color: blue">(2010)</span></li>
+    <li class="list-group-item ">IRON MAN 3<span style="color: blue">(2012)</span></li>
 </ul>
+</div>
+</div>
 <h1>TWITTER LINK</h1>
 <h1>REGISTRATION FORM</h1>
-   <div style="display:block">
-<div><label>NAME</label> <input type="text" name="username"></div>
-<div><label>PASSWORD</label> <input type="password" name="password"></div>
-<div><label>EMAIL</label> <input type="text" name="email"></div>
-<div><label>AGE</label><input type="text" name="age">
-</div>
+<form>
+   <div class="form-group">
+         <label>USERNAME</label>
+      <input type="text" class="form-control" id="exampleinputusername1"placeholder="USERNAME">
+     
+   </div>
+      <div class="form-group">
+            <label>NAME</label>
+            <input type="text" class="form-control" id="exampleinputname1 "placeholder="NAME">
+            
+      </div>
+      <div class="form-group">
+        <label>Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+            <label>AGE</label>
+            <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
 <h2>WHICH IS YOUR FAVORITE CHARACTER</h2>
-<label>superman</label><input type="radio" name="radio 1">
-<label>batman</label><input type="radio" name="radio 1">
-<label>ironman</label><input type="radio" name="radio 1">
-<label>spiderman</label><input type="radio" name="radio 1">
-<input type="submit">
-<body>
-    
-</body>
+<div><label>superman</label><input type="radio" class="col-6" name="radio 1"></div>
+<div></div><label>batman</label><input type="radio" class="col-6" name="radio 1"></div>
+<div><label>ironman  </label><input type="radio" class="col-6"name="radio 1"></div>
+<div></div><label>spiderman</label><input type="radio"class="col-6" name="radio 1"></div>
+<div><input type="submit" class="btn btn-danger btn-block"></div>
+</body> 
 </html>

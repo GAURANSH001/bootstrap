@@ -1,0 +1,25 @@
+#para1{
+    color:red;background-color: yellow;
+}
+#para2{
+    color: white;background-color: black;
+}
+#para3
+{
+    color: green;background-color: yellow;
+    text-align: center;
+}
+.style1{
+    color: black;background-color: white;
+}
+.style2{
+    color:red;
+}
+.style3{
+   list-style: none;
+   background-color: yellow;
+   padding: 2%;
+   margin: 1% 10% 1% 10%;
+   border:25%;
+   border-color: black;
+}
